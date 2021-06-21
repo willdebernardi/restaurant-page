@@ -145,6 +145,7 @@ li a:hover {
 
 #button-container > button {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 3px;
 }
 
 #book-button {
