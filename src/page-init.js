@@ -46,7 +46,7 @@ function pageInit() {
     const sloganHeader = document.createElement("h1");
     sloganHeader.textContent = "The Taste of Italy";
     const flagDiv = document.createElement("div");
-    flagDiv.id = "italy-flag";
+    flagDiv.classList.add("italy-flag");
 
     imageCont.appendChild(restHeader);
     imageCont.appendChild(sloganHeader);
@@ -60,6 +60,8 @@ function pageInit() {
     leftPane.id = "left-pane";
     const dineHeader = document.createElement("h3");
     dineHeader.textContent = "Dine With Us";
+    const flagDivTwo = document.createElement("div");
+    flagDivTwo.classList.add("italy-flag");
     const hoursHeader = document.createElement("h4");
     hoursHeader.innerHTML = "Sunday: Closed <br> Monday-Thursday: 12:00PM - 10:00PM <br> Friday-Saturday: 2:00PM - 11:00PM";
     const bookHeader = document.createElement("h1");
@@ -78,7 +80,7 @@ function pageInit() {
     buttonCont.appendChild(menuButton);
 
     leftPane.appendChild(dineHeader);
-    leftPane.appendChild(flagDiv);
+    leftPane.appendChild(flagDivTwo);
     leftPane.appendChild(hoursHeader);
     leftPane.appendChild(bookHeader);
     leftPane.appendChild(buttonCont);
