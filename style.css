@@ -116,7 +116,7 @@ li a:hover {
 }
 
 #right-pane {
-    background: url('../resources/pasta.jpeg');
+    background: url('resources/pasta.jpeg');
     background-size: cover;
 }
 
